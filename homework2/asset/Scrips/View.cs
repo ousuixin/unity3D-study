@@ -52,6 +52,10 @@ public class View : MonoBehaviour
             {
                 GUI.TextArea(new Rect(10, 40, Screen.width - 20, Screen.height / 2), mySSDirector.getBaseCode().gameRules);
             }
+            else if (GUI.Button(new Rect(140, 10, 60,20), "Restart"))
+            {
+                mySSDirector.restart();
+            }
             else if (mySSDirector.state == State.BOAT_STOP_ON_THE_LEFT_SHORE || mySSDirector.state == State.BOAT_STOP_ON_THE_RIGHT_SHORE)
             {
                 if (GUI.Button(new Rect(castw(2f), casth(6f), width, height), "Go"))
