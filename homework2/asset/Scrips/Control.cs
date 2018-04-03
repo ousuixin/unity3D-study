@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using IControler;
@@ -73,42 +73,49 @@ namespace IControler
                 gameObjectModel = gom;
             }
         }
-
+        //注册左边岸上牧师上船事件供view页面调用
         public void priestLeftshoreGoOnboard()
         {
             gameObjectModel.leftShorePriestGoOnBoat();
         }
 
+        //注册右边岸上牧师上船事件供view页面调用
         public void priestRightshoreGoOnboard()
         {
             gameObjectModel.rightShorePriestGoOnBoat();
         }
 
+        //注册左边岸上恶魔上船事件供view页面调用
         public void devilLeftshoreGoOnboard()
         {
             gameObjectModel.leftShoreDevilGoOnBoat();
         }
 
+        //注册右边岸上恶魔上船事件供view页面调用
         public void devilRightshoreGoOnboard()
         {
             gameObjectModel.rightShoreDevilGoOnBoat();
         }
 
+        //注册左边岸上恶魔/牧师下船事件供view页面调用
         public void LeftshoreDisembark()
         {
             gameObjectModel.GoOffBoard(0);
         }
 
+        //注册右边岸上恶魔/牧师下船事件供view页面调用
         public void RightshoreDisembark()
         {
             gameObjectModel.GoOffBoard(1);
         }
 
+        //注册开船事件供View调用
         public void moveBoat()
         {
             gameObjectModel.moveBoat();
         }
         
+        //注册重开游戏事件（点击View的restart重开游戏）
         public void restart()
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
