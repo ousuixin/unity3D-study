@@ -1,0 +1,1 @@
+这个文件夹下是资源文件，脚本在script文件夹下、预制在resources/prefabs下
