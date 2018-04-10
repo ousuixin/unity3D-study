@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using IControler;
@@ -155,7 +155,15 @@ namespace IControler
             GameObject[] array = queue.ToArray();
             for (int i = 0; i < queue.Count; ++i)
             {
-                array[i].transform.position = new Vector3(pos.x - distanceBetweenObj * i, pos.y, pos.z);
+                int temp = 0;
+                if (Convert.ToInt32(array[i].name) >= 3)
+                {
+                    temp = Convert.ToInt32(array[i].name) - 3;
+                } else
+                {
+                    temp = Convert.ToInt32(array[i].name);
+                }
+                array[i].transform.position = new Vector3(pos.x - distanceBetweenObj * temp, pos.y, pos.z);
             }
         }
 
