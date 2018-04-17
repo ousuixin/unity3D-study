@@ -1,4 +1,4 @@
-视频链接正在审核中，审核完毕再上传  
+[游戏视频链接](http://v.youku.com/v_show/id_XMzU0NDU3MTY2NA==.html?spm=a2hzp.8244740.0.0)
 
 ## 游戏概况：
 - 游戏有n个round，每个round都包括10次trial（即有十次发射飞盘的机会）；
