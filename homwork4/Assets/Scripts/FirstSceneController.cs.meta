@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: ad560be02b45b664eb18f2a6e76957a7
+timeCreated: 1523883814
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - myExplosion: {fileID: 1260768356295002, guid: 0d2b0e222f9579b4496b09f249dbe6ab,
+      type: 2}
+  - myRed: {fileID: 2100000, guid: da88a7fe4b7c67f4688384b610f98eef, type: 2}
+  - myOrange: {fileID: 2100000, guid: 70221f2574064384b94e6c1b326111da, type: 2}
+  - myGreen: {fileID: 2100000, guid: af4837655835c094ca384c1d81def8ab, type: 2}
+  - myBlue: {fileID: 2100000, guid: 2faf8712f1523504480bb034675198dc, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

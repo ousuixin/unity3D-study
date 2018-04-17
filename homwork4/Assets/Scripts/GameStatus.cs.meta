@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: fa1e091f2e7894f4abde0127993ba585
+timeCreated: 1523872506
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - myCanvas: {fileID: 1140392909059734, guid: 814f258a02811694c98e08a63966baf8, type: 2}
+  - roundText: {fileID: 1342931608570588, guid: 9e3bf54544f065544a8d0305fcc67e3e,
+      type: 2}
+  - scoreText: {fileID: 1963749618540742, guid: 025741803a8ffdf47a4eaf4f038b1bde,
+      type: 2}
+  - roundChangeMessage: {fileID: 1618188486852910, guid: 55be623f51f72844e815ccf1f7896a94,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
